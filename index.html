@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<title>Gooey</title>
+	<link rel="stylesheet" type="text/css" href="gooey.css">
+
+
+</head>
+<body>
+	<h1 id="head">Gooey Animation</h1>
+	<h3 id="instruc">How it works:</h3>
+	<p>Drag the balls around & have fun!</p>
+	<section>
+		<div class="gooey">
+			<span id="gooBall1"></span>
+			<span id="gooBall2"></span>
+			<span id="gooBall3"></span>
+			<span id="gooBall4"></span>
+			<span id="gooBall5"></span>
+			<span id="gooBall6"></span>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+ $(function(){
+	$(".gooey span").draggable();
+}); 
+</script>
+</body>
+</html>

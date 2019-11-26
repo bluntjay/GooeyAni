@@ -1,0 +1,114 @@
+#head{
+	font-family: impact;
+	text-decoration: overline underline;
+	text-align: center;
+}
+#instruc{
+	font-family: fantasy;
+	text-decoration: underline;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+.gooey{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background:#fff;  
+  filter: blur(10px) contrast(20);
+}
+.gooey span{
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  background:#000;
+  border-radius:50%;
+  top: 50%;
+  left: 30%;
+  transform:translate(-50%,-50%);
+}
+#gooBall1{
+  left:30%;
+  animation: sludge1 3s ease infinite;
+}
+#gooBall2{
+  left:30%;
+  animation: sludge2 3s ease infinite;
+}
+#gooBall3{
+  left:30%;
+  animation: sludge3 3s ease infinite;
+}
+#gooBall4{
+  left:30%;
+  animation: sludge4 3s ease infinite;
+}
+#gooBall5{
+  left:30%;
+  animation: sludge5 3s ease infinite;
+}
+#gooBall6{
+  left:30%;
+  animation: sludge6 3s ease infinite;
+}
+@keyframes sludge1{
+  0%{
+  	left: 10%;
+  }50%{
+  	left: 20%;
+  }100%{
+  	left: 10%;
+  }
+}
+
+@keyframes sludge2{
+  0%{
+  	left: 20%;
+  }50%{
+  	left: 25%;
+  }100%{
+  	left: 20%;
+  }
+}
+@keyframes sludge3{
+  0%{
+  	left:30%;
+  }50%{
+  	left:50%;
+  }100%{
+  	left:30%;
+  }
+}
+
+@keyframes sludge4{
+  0%{
+  	left: 40%;
+  }50%{
+  	left: 20%;
+  }100%{
+  	left: 40%;
+  }
+}
+
+@keyframes sludge5{
+  0%{
+  	left:50%;
+  }50%{
+  	left: 25%;
+  }100%{
+  	left:50%;
+  }
+}
+
+@keyframes sludge6{
+  0%{
+  	left:60%;
+  }50%{
+  	left:20%;
+  }100%{
+  	left:60%;
+  }
+}
